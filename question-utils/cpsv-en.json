@@ -1,0 +1,97 @@
+{
+  "PublicService": {
+    "name": "Driver’s License Renewal",
+    "evidence": [
+      {
+        "id": 1,
+        "evs": [
+          {
+            "id": "ev0001",
+            "type": "Evidence",
+            "name": "Driver’s license renewal application",
+            "description": "Application form submitted by the interested party for the renewal of the driver’s license, completed at the offices of the competent authorities or through Citizen Service Centers (KEP)."
+          },
+          {
+            "id": "ev0002",
+            "type": "Evidence",
+            "name": "Police ID card or passport",
+            "description": "Presentation of a police ID card or passport for identification of the applicant."
+          },
+          {
+            "id": "ev0003",
+            "type": "Evidence",
+            "name": "Doctor’s note of approval",
+            "description": "Doctor’s approval of all necessary medical examinations"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "evs": [
+          {
+            "id": "ev0003",
+            "type": "Evidence",
+            "name": "Medical certificate from a general practitioner",
+            "description": "Medical certificate issued by a general practitioner confirming the applicant’s fitness to drive, according to the Ministry of Health regulations."
+          },
+          {
+            "id": "ev0004",
+            "type": "Evidence",
+            "name": "Medical certificate from an ophthalmologist",
+            "description": "Medical certificate issued by an ophthalmologist confirming the adequacy of the applicant’s vision."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "evs": [
+          {
+            "id": "ev0005",
+            "type": "Evidence",
+            "name": "Proof of payment of fees",
+            "description": "Receipt proving payment of the required administrative and health-related fees to the Public Treasury and EOPYY for the license renewal process."
+          },
+          {
+            "id": "ev0006",
+            "type": "Evidence",
+            "name": "Passport-type photograph",
+            "description": "One recent passport-type photograph to be used for the issuance of the new driver’s license."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "evs": [
+          {
+            "id": "ev0007",
+            "type": "Evidence",
+            "name": "Old driver’s license",
+            "description": "The old driver’s license that must be submitted and canceled upon completion of the renewal process."
+          }
+        ]
+      }
+    ],
+    "criterion_requirments": [
+      {
+        "id": "cr0001",
+        "name": "The applicant must hold a valid driver’s license that requires renewal."
+      },
+      {
+        "id": "cr0002",
+        "name": "The applicant must have successfully completed the required medical examinations (general practitioner and ophthalmologist)."
+      },
+      {
+        "id": "cr0003",
+        "name": "All required administrative and health-related fees must be paid to the Public Treasury and EOPYY."
+      },
+      {
+        "id": "cr0004",
+        "name": "The submitted photograph must comply with official passport-type specifications."
+      },
+      {
+        "id": "cr0005",
+        "name": "The old driver’s license must be returned upon receipt of the new one."
+      }
+    ]
+  }
+}

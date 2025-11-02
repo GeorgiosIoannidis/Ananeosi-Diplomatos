@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "question": "Do you currently hold a valid driver’s license?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "id": 1,
+    "question": "Has your doctor certified you as a ‘Capable driver’?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "id": 2,
+    "question": "How many penalty points do you have on your driver’s license?",
+    "options": ["50 or more", "Less than 50"]
+  },
+  {
+    "id": 3,
+    "question": "Are you a resident of Greece?",
+    "options": ["Permanent", "More than 6 months", "Less than 6 months"]
+  },
+  {
+    "id": 4,
+    "question": "Do you have active TaxisNet credentials?",
+    "options": ["Yes", "No"]
+  }
+]
